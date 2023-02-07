@@ -1,7 +1,7 @@
 name: slide_to_start
 description: A new Flutter package project.
 version: 0.0.1
-homepage: null
+homepage: https://github.com/SwaroopSambhayya/slide_to_start
 
 environment:
   sdk: ">=2.19.0 <3.0.0"

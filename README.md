@@ -11,17 +11,20 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+This package provides a interactive way of slide to complete facility similar to slide to answer in Iphone!
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+1. Slide to start drag animation
+2. Changing following properties like slide button size,color,radius, similarly for dashbutton
+3. Changing the width,height,padding,length,background,border of slide container
+4. Changing the slide text, shimmer effect color
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add slide_to_start file to your pubspec.yaml file
+dependencies:
+flutter_native_splash: ^2.2.17
 
 ## Usage
 
@@ -29,11 +32,20 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+SlideToStart(
+
+        onSlide: () async {
+                Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Home(),
+                                ),
+                            );
+                        },
+        ),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+1. You can file the issues at https://github.com/SwaroopSambhayya/slide_to_start
+2. Any contribution will be appreciated, please raise a issue to contribute
