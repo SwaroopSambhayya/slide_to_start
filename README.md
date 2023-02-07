@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/31922733/217163052-c4254513-626e-4964-
 Add slide_to_start file to your pubspec.yaml file
 ```
 dependencies:
-flutter_native_splash: ^2.2.17
+slide_to_start: ^0.0.1
 
 ```
 
