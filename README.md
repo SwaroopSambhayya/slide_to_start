@@ -1,4 +1,3 @@
-
 This package provides a interactive way of slide to complete facility similar to slide to answer in Iphone!
 
 ## Features
@@ -8,21 +7,18 @@ This package provides a interactive way of slide to complete facility similar to
 3. Changing the width,height,padding,length,background,border of slide container
 4. Changing the slide text, shimmer effect color
 
-
-
 ### Animation action
 
-![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/31922733/217453687-7e351fba-bdb3-4ef3-9bb3-c4ad6dd727a1.gif)
-
+<img src="https://user-images.githubusercontent.com/31922733/217453687-7e351fba-bdb3-4ef3-9bb3-c4ad6dd727a1.gif">
 
 ### Animation usecase
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/31922733/217453740-3193b2a6-234c-4686-b637-adc181418def.gif)
-
+<img src="https://user-images.githubusercontent.com/31922733/217453740-3193b2a6-234c-4686-b637-adc181418def.gif">
 
 ## Getting started
 
 Add slide_to_start file to your pubspec.yaml file
+
 ```
 dependencies:
 slide_to_start: ^0.0.1
