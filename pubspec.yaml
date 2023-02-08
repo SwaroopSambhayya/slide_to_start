@@ -1,6 +1,6 @@
 name: slide_to_start
 description: A interactive Slide to Start action with smooth transition. We can use this for onboarding or to perform any acknowldgment to an action.
-version: 0.0.3
+version: 0.0.4
 repository: https://github.com/SwaroopSambhayya/slide_to_start
 issue_tracker: https://github.com/SwaroopSambhayya/slide_to_start/issues
 
