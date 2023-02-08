@@ -12,12 +12,12 @@ This package provides a interactive way of slide to complete facility similar to
 
 ### Animation action
 
-https://user-images.githubusercontent.com/31922733/217163023-867e8aac-6f69-4199-b689-5eade764f392.mov
+![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/31922733/217453687-7e351fba-bdb3-4ef3-9bb3-c4ad6dd727a1.gif)
 
 
 ### Animation usecase
 
-https://user-images.githubusercontent.com/31922733/217163052-c4254513-626e-4964-8342-9a9b9e66b8d5.mov
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/31922733/217453740-3193b2a6-234c-4686-b637-adc181418def.gif)
 
 
 ## Getting started
