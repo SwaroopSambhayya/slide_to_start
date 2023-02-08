@@ -18,3 +18,7 @@ Following changes has beed added
 ### 0.0.3
 
 Updated documentation
+
+### 0.0.4
+
+Issue tracker added
