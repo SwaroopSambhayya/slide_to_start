@@ -9,10 +9,6 @@ This package provides a interactive way of slide to complete facility similar to
 
 ### Animation action
 
-<img src="https://user-images.githubusercontent.com/31922733/217453687-7e351fba-bdb3-4ef3-9bb3-c4ad6dd727a1.gif">
-
-### Animation usecase
-
 <img src="https://user-images.githubusercontent.com/31922733/217453740-3193b2a6-234c-4686-b637-adc181418def.gif">
 
 ## Getting started
