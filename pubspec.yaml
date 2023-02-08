@@ -1,7 +1,7 @@
 name: slide_to_start
-description: A new Flutter package project.
+description: A interactive Slide to Start action with smooth transition. We can use this for onboarding or to perform any acknowldgment to an action.
 version: 0.0.1
-homepage: https://github.com/SwaroopSambhayya/slide_to_start
+repository: https://github.com/SwaroopSambhayya/slide_to_start
 
 environment:
   sdk: ">=2.19.0 <3.0.0"

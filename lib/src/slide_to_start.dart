@@ -4,25 +4,64 @@ import 'package:shimmer/shimmer.dart';
 
 class SlideToStart extends StatefulWidget {
   final Function onSlide;
+
+  /// onSlide callback function
   final String? text;
+
+  /// title of onslide action
   final TextStyle? textStyle;
+
+  /// style of title
   final double? width;
+
+  /// width of widget
   final double? height;
+
+  /// height of the widget
   final EdgeInsetsGeometry? padding;
+
+  /// Widget padding
   final Color? backgroundColor;
+
+  /// Background color of the widget
   final double? borderWidth;
+
+  /// border width of the widget when the border is specified
   final BorderRadiusGeometry? borderRadius;
+
+  /// border radius of the widget
   final BorderType? dashedBorderType;
+
+  /// borderType of the dashed component
   final IconData? icon;
+
+  /// slide button icon
   final Color? shimmerBaseColor;
+
+  /// shimmer effect base color
   final Color? shimmerHighLightColor;
+
+  /// shimmer effect highlight color
   final Color? iconColor;
+
+  /// slide button icon color
   final Color? borderColor;
+
+  /// widget border color
   final Color? dashButtonBorderColor;
+
+  /// dashed component boder color
   final Size? dashButtonSize;
+
+  /// dashed component size
   final double? slideButtonRadius;
+
+  /// Radius of the slide button
   final Color? slideButtonColor;
 
+  /// Slide button color
+
+  /// SlideToStart constructor
   const SlideToStart(
       {Key? key,
       required this.onSlide,
@@ -51,9 +90,15 @@ class SlideToStart extends StatefulWidget {
 }
 
 class _SlideToStartState extends State<SlideToStart> {
+  /// tracking horizontal drag position
   double horizontalDragPosition = 0;
+
+  /// tracking when to show action text
   bool showText = true;
+
+  /// key for tracking position of slide button
   final GlobalKey _slideKey = GlobalKey();
+
   @override
   Widget build(BuildContext context) {
     return Container(
