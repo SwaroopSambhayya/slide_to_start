@@ -14,3 +14,7 @@ Following changes has beed added
 1. Proper documentation
 2. Repository URl
 3. Package description
+
+### 0.0.3
+
+Updated documentation
